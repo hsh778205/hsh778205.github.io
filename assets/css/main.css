@@ -29,6 +29,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+body{
+	background: url("https://acg.yanwz.cn/wallpaper/api.php") fixed;
+}
+	
+
 body {
 	line-height: 1;
 }
