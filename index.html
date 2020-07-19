@@ -3,19 +3,15 @@
 <head>
 	<title>脑洞列表</title>
 	<link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/send-off-a-friend/custom.css" />
+	<link type="text/css" rel="stylesheet" href="assets/waifu.css" />
+	
+	
+	<script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="https://www.cnblogs.com/js/blog-common.min.js"></script>
 	
 </head>
 
 <body class="is-preload">
-    <!-- waifu-tips.js 依赖 JQuery 库 -->
-    <script src="https://hsh778205.github.io/waifu/assets/jquery.min.js?v=3.3.1"></script>
-    
-    <!-- 实现拖动效果，需引入 JQuery UI -->
-    <script src="https://hsh778205.github.io/waifu/assets/jquery-ui.min.js?v=1.12.1"></script>
-    
-    <!-- 使用 aotuload.js 引入看板娘 -->
-    <script src="https://hsh778205.github.io/waifu/assets/autoload.js?v=1.4.2"></script>
-	
 	
 	<div class="postBody">
 	<div id="home" >
@@ -31,5 +27,68 @@
 			<li><a href="./projects/our-junior-high-school-life">Our junior high school life</a></li>
 		</ul>
 	</div>
+	
+	
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <title>Live2D</title>
+     <link rel="stylesheet" type="text/css" href="https://blog-static.cnblogs.com/files/send-off-a-friend/flat-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://blog-static.cnblogs.com/files/send-off-a-friend/waifu101.css"/>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="https://blog-static.cnblogs.com/files/send-off-a-friend/waifu-tips009.js">
+    <div class="waifu" id="waifu">
+        <div class="waifu-tips" style="opacity: 1;"></div>
+        <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+        <div class="waifu-tool">
+            <span class="fui-home"></span>
+            <span class="fui-chat"></span>
+            <span class="fui-eye"></span>
+            <span class="fui-user"></span>
+            <span class="fui-photo"></span>
+            <span class="fui-info-circle"></span>
+            <span class="fui-cross"></span>
+        </div>
+    </div>
+
+   
+    <script src="https://blog-static.cnblogs.com/files/send-off-a-friend/live2d.js"></script>
+    <script src="https://blog-static.cnblogs.com/files/send-off-a-friend/waifu-tips009.js"></script>
+    <script type="text/javascript">initModel()</script>
+</body>
+</html>
+<link rel="stylesheet" type="text/css" href="https://blog-static.cnblogs.com/files/send-off-a-friend/waifu101.css"/>
+
+
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML"></script>
+<script src="https://cdn.bootcss.com/smoothscroll/1.4.6/SmoothScroll.min.js"></script>
+<script type="text/javascript">
+
+// 控制台输出信息
+(function(a){
+    if (!a) return;
+    var msg = "%c\n\n\n欢迎访问折柳的博客,\n鄙人蒟蒻,望各位大佬多加指点~\n ";
+    if (window.chrome) {
+        a.log("%c ", "padding:50px;background:url('https://images.cnblogs.com/cnblogs_com/send-off-a-friend/1643278/o_200207090526%E5%90%91%E6%9D%8E%E6%96%87%E4%BA%AE%E5%8C%BB%E7%94%9F%E8%87%B4%E4%BB%A5%E6%95%AC%E6%84%8F2.png')no-repeat;background-size: contain;");
+        a.log(msg, "color:#0080FF");
+    } else {
+        a.log(msg.replace(/%c/g,''));
+    }
+})(top.console);
+
+
+</script>
+
+    </div>
 </body>
 </html>
